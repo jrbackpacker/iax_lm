@@ -1,0 +1,27 @@
+<!ELEMENT Prisiones (Prision+)>
+<!ELEMENT Prision (Codigo, Nombre, Director, Direccion, FechaInauguracion, CapacidadMaxima, Funcionarios, Reclusos, Celdas)>
+<!ELEMENT Codigo (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Director (NombreCompleto, FechaNombramiento)>
+<!ELEMENT NombreCompleto (#PCDATA)>
+<!ELEMENT FechaNombramiento (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>
+<!ELEMENT FechaInauguracion (#PCDATA)>
+<!ELEMENT CapacidadMaxima (#PCDATA)>
+<!ELEMENT Funcionarios (Funcionario+)>
+<!ELEMENT Funcionario (Puesto, FechaIncorporacion, NombreCompleto)>
+<!ELEMENT Puesto (#PCDATA)>
+<!ELEMENT FechaIncorporacion (#PCDATA)>
+<!ELEMENT Reclusos (Recluso+)>
+<!ELEMENT Recluso (NumeroRecluso, NombreCompleto, NumeroCelda, FechaIngreso, DuracionCondena, Peligrosidad)>
+<!ELEMENT NumeroRecluso (#PCDATA)>
+<!ELEMENT NumeroCelda (#PCDATA)>
+<!ELEMENT FechaIngreso (#PCDATA)>
+<!ELEMENT DuracionCondena (#PCDATA)>
+<!ELEMENT Peligrosidad (#PCDATA)>
+<!ELEMENT Celdas (Celda+)>
+<!ELEMENT Celda (NumeroCelda, Pabellon, Plazas)>
+<!ELEMENT Pabellon (#PCDATA)>
+<!ELEMENT Plazas (#PCDATA)>
+
+<!ATTLIST Prision Codigo CDATA #REQUIRED>
