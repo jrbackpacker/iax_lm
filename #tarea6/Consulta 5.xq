@@ -1,5 +1,3 @@
-Consulta 1.5:
-
 
 (: Contamos cuántos artistas tienen año de nacimiento menor a 1600.
 
