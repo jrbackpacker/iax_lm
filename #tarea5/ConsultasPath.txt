@@ -1,0 +1,21 @@
+Consulta 1:
+
+/artistas/artista[nacimiento >= 1501 and nacimiento <= 1600]/concat(@cod, ' - ', nombreCompleto)
+
+Consulta 2:
+
+
+sum(/artistas/artista/nacimiento) div count(/artistas/artista/nacimiento)
+
+
+Consulta 3:
+
+
+/artistas/artista[@cod != 'a102' and fallecimiento]/concat(nombreCompleto, ' murió a los ', fallecimiento - nacimiento, ' años.')
+
+Consulta 4:
+
+
+/artistas/artista[@cod != 'a102' and fallecimiento - nacimiento < 75]/concat(nombreCompleto, ' nació en ', pais, ' y falleció con ', fallecimiento - nacimiento, ' años.')
+
+

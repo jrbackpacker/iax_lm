@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="romero_perez_jesus_agenda.xsd">
+    <ficha>
+        <nombre>María</nombre>
+        <apellido1>López</apellido1>
+        <apellido2>García</apellido2>
+        <telefonos>
+            <nacional tipo="movil">678456123</nacional>
+            <nacional tipo="fijo">911223344</nacional>
+            <internacional>+44 2031234567</internacional>
+        </telefonos>
+        <emails>
+            <email>maria.lopez@empresa.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Avenida de la Constitución 45</calle>
+                <piso>2º</piso>
+                <letra>A</letra>
+                <codigoPostal>28012</codigoPostal>
+                <ciudad>Madrid</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+        <atributos>
+            <categoria>empresa</categoria>
+            <zona>La flota</zona>
+        </atributos>
+    </ficha>
+    <ficha>
+        <nombre>Juan</nombre>
+        <apellido1>Martínez</apellido1>
+        <telefonos>
+            <nacional tipo="movil">679876543</nacional>
+            <nacional tipo="fijo">954112233</nacional>
+        </telefonos>
+        <emails>
+            <email>juan.martinez@gmail.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Calle del Sol 17</calle>
+                <codigoPostal>41003</codigoPostal>
+                <ciudad>Sevilla</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+        <atributos>
+            <categoria>particular</categoria>
+            <zona>San Antón</zona>
+        </atributos>
+    </ficha>
+    <ficha>
+        <nombre>Lucía</nombre>
+        <apellido1>Fernández</apellido1>
+        <apellido2>Pérez</apellido2>
+        <telefonos>
+            <nacional tipo="movil">698654321</nacional>
+            <internacional>+33 145678901</internacional>
+        </telefonos>
+        <emails>
+            <email>lucia.fernandez@outlook.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Paseo de la Castellana 200</calle>
+                <piso>7º</piso>
+                <letra>C</letra>
+                <codigoPostal>28046</codigoPostal>
+                <ciudad>Madrid</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+        <atributos>
+            <categoria>comercial</categoria>
+            <zona>Ronda Norte</zona>
+        </atributos>
+    </ficha>
+    <ficha>
+        <nombre>Carlos</nombre>
+        <apellido1>Sánchez</apellido1>
+        <apellido2>Ruiz</apellido2>
+        <telefonos>
+            <nacional tipo="movil">666123789</nacional>
+            <internacional>+49 3023345678</internacional>
+        </telefonos>
+        <emails>
+            <email>carlos.sanchez@empresa.net</email>
+            <email>contacto.carlos@negocios.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Calle de los Ángeles 10</calle>
+                <codigoPostal>29015</codigoPostal>
+                <ciudad>Málaga</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+        <atributos>
+            <categoria>particular</categoria>
+            <zona>Infante</zona>
+        </atributos>
+    </ficha>
+</agenda>

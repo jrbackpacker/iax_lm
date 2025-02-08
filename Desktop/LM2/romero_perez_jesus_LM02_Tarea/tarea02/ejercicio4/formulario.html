@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAX Actividades Extraescolares</title>
+    <link rel="stylesheet" href="estilos2.css">
+    <link rel="icon" href="iax_logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="iax_logo.png" alt="Logo del Instituto" class="logo">
+        <h1>IAX Actividades Extraescolares</h1>
+    </header>
+
+    <form>
+        <label for="email_profesor">Email del profesor responsable:</label>
+        <input type="text" id="email_profesor" name="email_profesor">
+
+        <label for="nombre_profesor">Nombre del profesor responsable:</label>
+        <input type="text" id="nombre_profesor" name="nombre_profesor">
+
+        <label for="nombre_acompanantes">Nombres profesores acompañantes:</label>
+        <input type="text" id="nombre_acompanantes" name="nombre_acompanantes">
+
+        <label for="titulo_actividad">Título o denominación de la actividad:</label>
+        <input type="text" id="titulo_actividad" name="titulo_actividad">
+
+        <label for="descripcion">Descripción de la actividad:</label>
+        <textarea id="descripcion" name="descripcion" placeholder="Escribe aquí la descripción..."></textarea>
+
+        <label for="departamento">Departamento:</label>
+        <select id="departamento" name="departamento">
+            <option value="">Seleccione un departamento</option>
+            <option value="lengua">Lengua y Literatura</option>
+            <option value="matematicas">Matemáticas</option>
+            <option value="ciencias">Ciencias Naturales</option>
+            <option value="sociales">Ciencias Sociales</option>
+            <option value="idiomas">Idiomas</option>
+            <option value="informatica">Informática</option>
+            <option value="educacion_fisica">Educación Física</option>
+            <option value="arte">Arte y Música</option>
+            <option value="orientacion">Orientación</option>
+        </select>
+
+        <label for="valorado">Valorado:</label>
+        <input type="checkbox" id="valorado" name="valorado">
+
+        <fieldset>
+            <legend>Fecha y hora de inicio de la actividad o de salida del IES:</legend>
+            <label for="fecha_inicio">Fecha:</label>
+            <input type="date" id="fecha_inicio" name="fecha_inicio">
+            <label for="hora_inicio">Hora:</label>
+            <input type="time" id="hora_inicio" name="hora_inicio">
+        </fieldset>
+
+        <fieldset>
+            <legend>Fecha y hora de fin de la actividad o de salida del IES:</legend>
+            <label for="fecha_fin">Fecha:</label>
+            <input type="date" id="fecha_fin" name="fecha_fin">
+            <label for="hora_fin">Hora:</label>
+            <input type="time" id="hora_fin" name="hora_fin">
+        </fieldset>
+
+        <label for="lugar_actividad">Lugar de realización de la actividad (indicar lugar, municipio, provincia...):</label>
+        <textarea id="lugar_actividad" name="lugar_actividad" placeholder="Escribe aquí la descripción..."></textarea>
+
+        <label for="alumnos">Grupos de alumnos implicados (selecciona uno o varios):</label>
+        <select id="alumnos" name="alumnos" multiple="multiple">
+            <option value="primero">DAM1</option>
+            <option value="primero">DAM2</option>
+            <option value="segundo">DAM1d</option>
+            <option value="segundo">DAM2d</option>
+        </select>
+
+        <label>¿Se necesita autobús?</label>
+        <div>
+            <label><input type="radio" name="autobus" value="si"> Sí</label>
+            <label><input type="radio" name="autobus" value="no"> No</label>
+        </div>
+
+        <label for="coste_actividad">Coste de la actividad (€) para el alumno:</label>
+        <input type="text" id="coste_actividad" name="coste_actividad">
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
